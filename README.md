@@ -1,9 +1,7 @@
 # Python Journey 🐍
-
 My personal Python learning repository – from basics to advanced concepts.
 
 ## 📚 Structure
-
 - **01_basics/** - Variables, data types, operators, input/output  
 - **02_control-flow/** - If/else, loops, conditions  
 - **03_data-structures/** - Lists, tuples, sets, dictionaries  
@@ -17,8 +15,7 @@ My personal Python learning repository – from basics to advanced concepts.
 - **11_notes/** - Learning notes, tips, and references  
 
 ## 🚀 Progress
-
-- [ ] Basics  
+- [x] Basics  
 - [ ] Control Flow  
 - [ ] Data Structures  
 - [ ] Functions  
@@ -30,10 +27,8 @@ My personal Python learning repository – from basics to advanced concepts.
 - [ ] Beyond Basics  
 
 ## 📝 How to Use
-
 - Open the folders and run the `.py` files to practice each topic.  
 - Check `11_notes/` for explanations, examples, and references.  
 
 ## 🎯 Goal
-
 Track my Python learning from fundamentals to advanced topics and build a strong foundation for Python development and project deployment.
