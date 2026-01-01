@@ -16,7 +16,7 @@ My personal Python learning repository – from basics to advanced concepts.
 
 ## 🚀 Progress
 - [x] Basics  
-- [ ] Control Flow  
+- [x] Control Flow  
 - [ ] Data Structures  
 - [ ] Functions  
 - [ ] OOP  
