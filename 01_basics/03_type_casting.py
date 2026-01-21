@@ -31,7 +31,7 @@ print(type(student))
 age = bool(age)
 print(age)       # when converting a number to boolean if that number is anything but zero it will be true
 
-# Casting somthing to boolean will be useful in this way, if We ask a user to enter a name, I need to check to see
+# Casting something to boolean will be useful in this way, if We ask a user to enter a name, I need to check to see
 # if they enter in something, if it's true , it means they have entered something, if false it means, they have not
 # entered anything
 
@@ -57,4 +57,5 @@ price = "hello"
 if isinstance(price, (int, float)):
     print("Valid numeric value for price.")
 else:
+
     print("Invalid numeric type for price.")
