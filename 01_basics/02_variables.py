@@ -75,8 +75,8 @@ print(name)
 #
 # Pro tip: Be strategic when annotating variables by type. This can add unnecessary overhead when overused.
 #
-# Type annotation is less common with Python users in data science, as it can be burdensome to manually map data ev
-# ery time a new set of data comes in. On the other hand, when doing object-oriented programming or writing functions, using type
+# Type annotation is less common with Python users in data science, as it can be burdensome to manually map data 
+# every time a new set of data comes in. On the other hand, when doing object-oriented programming or writing functions, using type
 # annotations becomes extremely important because it helps clarify code since you are
 # dealing with more than just the built-in types.
 
@@ -91,6 +91,7 @@ print(name)
 import typing
 List_of_numbers: typing.List[int] = [1, 2, 3]
 print(List_of_numbers)
+
 
 
 
