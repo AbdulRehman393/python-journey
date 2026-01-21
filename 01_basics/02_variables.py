@@ -56,7 +56,7 @@ else:
 
 # Python Annotation
 # Think of annotating a variable as
-# if you were to put a label on a container—and anything in that container should hold what the label is describing.
+# if you were to put a label on a container and anything in that container should hold what the label is describing.
 age : int = 34
 print(age)
 
@@ -91,5 +91,6 @@ print(name)
 import typing
 List_of_numbers: typing.List[int] = [1, 2, 3]
 print(List_of_numbers)
+
 
 
