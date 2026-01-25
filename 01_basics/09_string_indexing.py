@@ -11,3 +11,8 @@ print(credit_number[5:])                    # everything besides  4 digits to th
 print(credit_number[-3])                    # if you need character in a string
 print(credit_number[::2])                   # this will print every second character with in our string
 print(credit_number[2:-1:3])                # now it will count every third character
+
+
+# if you want to display reverse string
+text = "Hello"
+print(text[::-1])
