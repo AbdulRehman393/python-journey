@@ -2,7 +2,8 @@
 # Elements cannot be accessed or modified by index
 # Add / Remove allowed
 # No duplicates
-
+# Sets may work well if you are working with constants maybe colours for example
+# you need to find if a color is within a set
 
 fruits = {"apple","orange","banana","coconut","apple"}    # no duplicates are allowed
                                                           # output elements : apple, orange, banana, coconut
