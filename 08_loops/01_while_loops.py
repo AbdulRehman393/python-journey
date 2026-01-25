@@ -1,4 +1,6 @@
 # while loop = execute some code WHILE some condition remains true
+# while loop tends to be better if you need to execute something possibly infinite
+# amount of times such as when you are accepting user input for example.
 
 name = input("Enter your name: ")
 while name == "":
