@@ -25,6 +25,12 @@ for x in reversed(range(1,11)):
     print(x)
 print("Have a Nice Day!")
 
+# Another way to do it
+for x in range(10, 0, -1):
+    print(x)
+print("What's up!")
+
+
 # there is additional parameter you could add i.e., step
 # if you would like to cound by two you will add step as 2
 
