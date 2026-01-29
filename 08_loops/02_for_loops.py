@@ -1,7 +1,7 @@
 # for loop = execute a block a code a fixed number of times.
 #            You can iterate over a range, string, sequence, etc. anything
 #            that is considered iterable.
-
+# Iterable = something you can go through, item by item, one at a time.
 
 for x in range(5):
     print("Hello World!")
