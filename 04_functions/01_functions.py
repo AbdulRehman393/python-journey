@@ -8,7 +8,7 @@
 #
 # Order matters
 #
-# Values are assigned based on positio
+# Values are assigned based on position
 
 
 # Example 1
@@ -63,4 +63,5 @@ def create_name(first, last):
 
 full_name = create_name("jawad", "raza")
 print(full_name)
+
 
