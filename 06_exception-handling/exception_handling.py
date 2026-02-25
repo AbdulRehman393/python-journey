@@ -6,6 +6,7 @@
 # print(1+"1")
 
 # Value Errors tend to happen when you attempt to typecast the value of the wrong datatype
+# Value Error , when the value is not within an acceptable range.    e.g.,   float("hello)
 # int("Pizza")
 
 # Exceptions will interrupt our program if they are not handled gracefully, here is how we can do that:
@@ -37,4 +38,5 @@ finally:
 # Some people do is that they catch all exceptions, This is considered bad practice,
 # it's too broad it's good practice to tell the user what went wrong exactly.
 # except Exception:
+
 #    print("Something went wrong!")
