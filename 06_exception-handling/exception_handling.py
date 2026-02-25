@@ -38,5 +38,5 @@ finally:
 # Some people do is that they catch all exceptions, This is considered bad practice,
 # it's too broad it's good practice to tell the user what went wrong exactly.
 # except Exception:
-
 #    print("Something went wrong!")
+
