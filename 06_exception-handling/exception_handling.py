@@ -6,7 +6,6 @@
 # print(1+"1")
 
 # Value Errors tend to happen when you attempt to typecast the value of the wrong datatype
-# Value Error , when the value is not within an acceptable range.    e.g.,   float("hello)
 # int("Pizza")
 
 # Exceptions will interrupt our program if they are not handled gracefully, here is how we can do that:
@@ -40,3 +39,19 @@ finally:
 # except Exception:
 #    print("Something went wrong!")
 
+# raise  = will produce an error, avoid executing subsequent code
+
+def average(values):
+    # Check data type
+    if type(values) in (list,set):
+        # Run if appropriate data type was used
+        average_value = sum(values) / len(values)
+        return average_value
+    else:
+        # Run if an Exception occurs
+        raise TypeError("average() accepts a list or set, please provide a correct data type.")
+    
+sales_dict = {"cust_id": ["JL93","MT12"],
+              "order_value": [43.12, 68.70]}
+
+print(average(sales_dict))
