@@ -24,8 +24,6 @@ print(result)
 result = name.title()
 print(result)
 
-
-
 # upper method will take all characters in a string and make it upper case
 result = name.upper()
 print(result)
@@ -40,6 +38,10 @@ print(result)
 
 # isalpha method will return either true or false if , true if there are only alphabetical character in that string else false
 result = name.isalpha()                       # remember space is not an alphabetical character
+print(result)
+
+# isalnum method will return True if all characters in the string are alphanumeric, otherwise it will return False
+result = name.isalnum()
 print(result)
 
 phone_number = input("Enter you phone number #:")
