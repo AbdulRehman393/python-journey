@@ -71,7 +71,7 @@ print(text.rstrip())  # Output: "  yes"
 
 
 # The .split() method splits a string into a list of smaller
-# strings (called substrings) based on a separator.
+# strings (called substrings) based on a separator. By default, it splits on whitespace.
 text = "This is another example"
 words = text.split()
 print(words)
