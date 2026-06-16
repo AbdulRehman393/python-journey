@@ -1,8 +1,10 @@
-# format specifiers = {value:flags} when used in the context of f-string, they allow
-#                      us to format a value based on what flags are inserted
+    # format specifiers = {value:flags} when used in the context of f-string, they allow
+    #                      us to format a value based on what flags are inserted
 
 # .(number)f = round to that many decimal places (fixed point)
-# :(number) = allocate that many spaces
+# :(number) = Reserve a minimum width of that many characters.
+# Python will never cut off the value if the value itself is longer.
+
 # :03 = allocate and zero pad that many spaces
 # :< = left justify
 # :> = right justify
