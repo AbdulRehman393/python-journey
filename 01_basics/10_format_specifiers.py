@@ -54,11 +54,11 @@ print(f"Price 2 is ${price2:^10}")
 print(f"Price 3 is ${price3:^10}")
 
 # If you want to display a sign with a number
-print(f"Price 1 is ${price1:+}")      # any positive number is preceded with the plus sign
-print(f"Price 2 is ${price2:+}")      # any negative number is preceded with negative sign
+print(f"Price 1 is ${price1:+}")      # Positive numbers get a + sign
+print(f"Price 2 is ${price2:+}")      # Negative numbers keep their - sign
 print(f"Price 3 is ${price3:+}")
 
-print(f"Price 1 is ${price1: }")  # or we could also use a space for any positive number
+print(f"Price 1 is ${price1: }")  # Or Leave a blank space for positive numbers, but keep the - sign for negative numbers
 print(f"Price 2 is ${price2: }")
 print(f"Price 3 is ${price3: }")
 
