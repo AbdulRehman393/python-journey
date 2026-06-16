@@ -53,7 +53,7 @@ print(f"Price 1 is ${price1:^10}")
 print(f"Price 2 is ${price2:^10}")
 print(f"Price 3 is ${price3:^10}")
 
-# If you have any positive value , you would like to display a plus sign
+# If you want to display a sign with a number
 print(f"Price 1 is ${price1:+}")      # any positive number is preceded with the plus sign
 print(f"Price 2 is ${price2:+}")      # any negative number is preceded with negative sign
 print(f"Price 3 is ${price3:+}")
