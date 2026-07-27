@@ -616,7 +616,7 @@ if pokemon_info:
 - JSON data parsing
 - Status code handling
 - Dictionary access
-- Functions with return values
+- Functions with return values.
 
 </details>
 
