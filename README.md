@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🐍 Python Mastery
-### *Complete Python Learning Journey: From Absolute Beginner to Advanced Developer*
+### *Complete Python Learning Journey: From Absolute Beginner to Advanced Developer.*
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Code Style](https://img.shields.io/badge/Code%20Style-PEP8-blue?style=for-the-badge)](https://pep8.org/)
