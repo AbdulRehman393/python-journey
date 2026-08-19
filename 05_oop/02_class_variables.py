@@ -1,15 +1,12 @@
 # class variables = Shared among all instances of a class
 #                   Defined outside the constructor
 #                   Allow you to share data among all objects created from that class
-from tkinter.font import names
-
-from dulwich.protocol import agent_string
 
 
 # instance variables are defined inside the constructor , class variables are defined outside the
 # constructor
 
-
+# Instance variables are for data that is different for each object. Class variables are for data that should be shared by all objects of the class.
 
 
 class Student:
